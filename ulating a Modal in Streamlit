@@ -1,0 +1,6 @@
+import streamlit as st
+
+if st.button("Open Modal"):
+    with st.expander("🔒 Modal (Simulated)"):
+        st.write("This is a modal-like section.")
+        st.button("Close")
